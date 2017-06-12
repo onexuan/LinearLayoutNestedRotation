@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/topPlayers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#CC0000"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/p3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#AABBCC"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/p3text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="p3"
+                android:textSize="48sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/p2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#0000CC"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/p2text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="p2"
+                android:textSize="48sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#00CC00"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/p1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="p1"
+                android:textSize="48sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
